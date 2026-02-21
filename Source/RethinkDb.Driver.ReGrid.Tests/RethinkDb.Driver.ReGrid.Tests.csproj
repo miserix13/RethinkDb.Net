@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>RethinkDb.Driver.ReGrid.Tests</RootNamespace>
     <AssemblyName>RethinkDb.Driver.ReGrid.Tests</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -113,10 +114,6 @@
     <ProjectReference Include="..\RethinkDb.Driver.ReGrid\RethinkDb.Driver.ReGrid.csproj">
       <Project>{d888899b-d030-44d1-9d91-99d57201a048}</Project>
       <Name>RethinkDb.Driver.ReGrid</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\RethinkDb.Driver.Tests\RethinkDb.Driver.Tests.csproj">
-      <Project>{40037f4c-e867-462a-b3e6-afed77582442}</Project>
-      <Name>RethinkDb.Driver.Tests</Name>
     </ProjectReference>
     <ProjectReference Include="..\RethinkDb.Driver\RethinkDb.Driver.csproj">
       <Project>{bf0e5a4a-4e2d-48b9-bcaa-054506396524}</Project>

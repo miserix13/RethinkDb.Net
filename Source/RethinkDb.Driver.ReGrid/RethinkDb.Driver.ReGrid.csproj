@@ -5,7 +5,7 @@
     </PackageReleaseNotes>
     <Version>0.0.0-localbuild</Version>
     <Authors>Brian Chavez</Authors>
-    <TargetFrameworks>net45;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>net10.0</TargetFrameworks>
     <CodeAnalysisRuleSet>RethinkDb.Driver.ReGrid.ruleset</CodeAnalysisRuleSet>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AssemblyOriginatorKeyFile>
@@ -31,8 +31,8 @@
     <ProjectReference Include="..\RethinkDb.Driver\RethinkDb.Driver.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Roslynator.Analyzers" Version="1.5.0" PrivateAssets="All" />
-    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
+    <PackageReference Include="Roslynator.Analyzers" Version="4.15.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="10.0.103" PrivateAssets="All" />
   </ItemGroup>
   <ItemGroup Condition=" '$(TargetFramework)' == 'net45' ">
     <PackageReference Include="Common.Logging" Version="3.3.0" />
